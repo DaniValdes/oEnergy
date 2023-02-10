@@ -5,5 +5,10 @@ body {
     background-image: url("/assets/img/background-1280.jpg");
     width: 1920px;
     height: 1080px;
+}
 
+footer{
+    background: black;
+    opacity: .6;
+    color:white
 }
