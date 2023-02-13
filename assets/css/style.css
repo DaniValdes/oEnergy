@@ -9,12 +9,9 @@ body {
     background-image: url("/assets/img/background-1280.jpg");
     background-repeat:no-repeat;
     min-height: 100vh; 
-  /*   place-items: center; */
 }
 
 .portada {
-/*     min-height: 100vh;
-    position: fixed; */
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -25,25 +22,11 @@ footer{
     color:white
 }
 
-p {
-    text-align: center;
-    border: solid 1px #fff;
-    height: 100px;
-    width: 100px;
-    border-radius: 10%;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: bold;
+h2 {
+    font-weight: 500;
+    font-size: 26px;
 }
 
-/* span{
-    display: block;
-    padding: 10px;
-    text-align: center;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 400;
-} */
 
 h3 {
         font-weight: 500;
@@ -53,37 +36,32 @@ h3 {
     
 }
 
-#cuenta {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-
+h5 {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
 }
 
-.simply-section {
-   
-    width: 180px;
-    height: 140px;
-    margin: 0 20px;
+.countdown {
     border-radius: 5px;
-    border-color: rgb(70,116,182);
+    border-color: black;  /*  rgb(70,116,182); */
     border-style: solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
 }
 
-.simply-amount {
+span {
+	font-weight: 700;
+	font-size: 27px;
+    color: rgb(114,121,129);
+}
+
+p {
     display: block;
     font-size: 50px;
 	font-weight: 700;
     color: rgb(223,150,88);
 }
 
-.simply-word {
-	font-weight: 700;
-	font-size: 27px;
-    color: rgb(114,121,129);
-}
+.fa-icon {
+    width: 60px;
+  }
