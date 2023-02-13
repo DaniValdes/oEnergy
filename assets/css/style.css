@@ -44,11 +44,11 @@ h5 {
     padding-top: 5px;
 }
 
-/* .countdown {
-    border-radius: 5px;
-    border-color: black;  /*  rgb(70,116,182); */
+.countdown {
+    border-radius: 26px;
+    border-color:  rgb(70,116,182); 
     border-style: solid;
-} */
+}
 
 span {
 	font-weight: 700;
