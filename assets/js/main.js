@@ -4,8 +4,8 @@ $minutes = document.getElementById('minutes'),
 $seconds = document.getElementById('seconds'),
 $finalMessage = document.querySelector('.final-sms');
 
-//Fecha a futuro
-const countdownDate = new Date('03 31, 2023 00:00:00').getTime();
+//Fecha a futuro 04 28, 2023 00:00:00
+const countdownDate = new Date('04 28, 2023 00:00:00').getTime();
 
 let interval = setInterval(function(){
     //Obtener fecha actual y milisegundos
@@ -26,7 +26,7 @@ let interval = setInterval(function(){
     $minutes.innerHTML = minutes;
     $seconds.innerHTML = ('0' + seconds).slice(-2);
 
-    //Cuando llegue a 0
+    //Cuando llegue a 0 - No se pide agregar accion
     if(distance < 0){
         clearInterval(interval);
         $finalMessage.style.transform = 'translateY(0)';
