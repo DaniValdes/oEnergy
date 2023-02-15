@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%; 
+}
+
+body {
+    background-image: url(./../img/fondo.jpg);
+    background-repeat:no-repeat;
+    min-height: 100vh; 
+    background-size: cover;
+    
+}
+
+.portada {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 200px;
+    position: relative;
+    min-height: 100vh;
+    color: #646464;
+    font-weight: 500;
+    
+}
+
+footer{
+    background: black;
+    opacity: .6;
+    color:white;
+    bottom: 0;
+    position: absolute;
+}
+
+
+@media (max-width: 767px) {
+    footer {
+      height: 220px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding-bottom: 50px; 
+    }
+  }
+
+h2 {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+
+h3 {
+        font-weight: 500;
+        font-size: 27px;
+        color: #646464;
+        margin-bottom: 0;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.countdown {
+    border-radius: 26px;
+    border-color:  rgb(70,116,182); 
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.5) ;
+   
+}
+
+@media (max-width: 767px) {
+    .countdown {
+      width: 210px;
+    }
+  }
+  
+span {
+	font-weight: 500;
+	font-size: 27px;
+    color: #646464;
+}
+
+p {
+    display: block;
+    font-size: 65px;
+	font-weight: 500;
+    color: #d76e14;
+    border-style: none none solid;
+    border-color:  rgb(70,116,182);
+    border-width: 2px;  
+}
+
+.fa-icon {
+    width: 60px;
+    vertical-align: middle;
+    
+  }
