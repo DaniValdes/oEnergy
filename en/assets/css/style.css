@@ -19,6 +19,8 @@ body {
     padding-bottom: 200px;
     position: relative;
     min-height: 100vh;
+    color: #646464;
+    font-weight: 500;
     
 }
 
