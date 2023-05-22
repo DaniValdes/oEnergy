@@ -98,3 +98,12 @@ p {
     vertical-align: middle;
     
   }
+
+
+html, body {
+    height: 100%;
+}
+
+.full-height {
+    min-height: 100%;
+}
